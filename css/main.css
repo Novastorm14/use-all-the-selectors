@@ -1,0 +1,51 @@
+html {
+  box-sizing: border-box;
+  background-color: #fdf6e3;
+  line-height: 1.5;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #fdf6e3;
+}
+
+header, footer {
+  font-size: 1.5rem;
+}
+
+ul, nav {
+  font-family: sans-serif;
+}
+
+.logo {
+  text-transform: uppercase;
+}
+
+.wrapper {
+  background-color: #eee8d5;
+}
+
+
+#contents, #favs, #facts, #types {
+  color: #93a1a1;
+}
+
+.wrapper > .dfn {
+  background-color: #b58900;
+}
+
+
+
+nav a:hover {
+  color: #b42885;
+  text-decoration: underline;
+}
+
+.intro {
+  font-size: 1rem;
+}
