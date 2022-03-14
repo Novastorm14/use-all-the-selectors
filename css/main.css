@@ -35,11 +35,37 @@ ul, nav {
   color: #93a1a1;
 }
 
-.wrapper > .dfn {
+.wrapper class="dfn":only-child {
   background-color: #b58900;
 }
 
+.dfn + strong {
+  color: #fff;
+}
 
+a + href {
+  background-color: #719e07;
+}
+
+rel="external" {
+  background-color: #2694d8;
+}
+
+ol li:last-child {
+  color: #2aa198;
+}
+
+.types li:nth-child(odd) {
+  background-color: #657ba3;
+}
+
+.types li:nth-child(even) {
+  background-color: #586e75;
+}
+
+.types li:nth-child(3n) {
+  background-color: #d04b16;
+}
 
 nav a:hover {
   color: #b42885;
