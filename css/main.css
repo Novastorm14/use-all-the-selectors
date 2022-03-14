@@ -1,13 +1,5 @@
 html {
   box-sizing: border-box;
-  background-color: #fdf6e3;
-  line-height: 1.5;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
 }
 
 body {
@@ -30,25 +22,28 @@ ul, nav {
   background-color: #eee8d5;
 }
 
-
 #contents, #favs, #facts, #types {
   color: #93a1a1;
 }
 
-.wrapper class="dfn":only-child {
+.wrapper > .dfn {
   background-color: #b58900;
 }
 
-.dfn + strong {
+p + strong {
   color: #fff;
 }
 
-a + href {
+a:not(.no-highlight) {
   background-color: #719e07;
 }
 
-rel="external" {
+[rel="external"] {
   background-color: #2694d8;
+}
+
+ol li:first-child {
+  color: #719e47;
 }
 
 ol li:last-child {
@@ -65,13 +60,4 @@ ol li:last-child {
 
 .types li:nth-child(3n) {
   background-color: #d04b16;
-}
-
-nav a:hover {
-  color: #b42885;
-  text-decoration: underline;
-}
-
-.intro {
-  font-size: 1rem;
 }
